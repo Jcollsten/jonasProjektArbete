@@ -1,0 +1,43 @@
+/* JAVASCRIPT STYLES */
+
+/* FORM STYLING  */
+/* Styling for the fields with a FAULTY input */
+.errorstyle {
+  background-color: red;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+.errorStyleInput {
+  border: 1px solid red;
+}
+
+/* Styling for the fields with a CORRECT input */
+.succesStyle {
+  background-color: #719b25;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 2rem;
+  font-size: 1.8rem;
+}
+.succesStyleInput {
+  border: 1px solid #719b25;
+}
+
+/* ON KLICK Styling/Animation for the Submit button  */
+.submitClick {
+  animation-name: greenFlash;
+  animation-duration: 0.3s;
+}
+@keyframes greenFlash {
+  0% {
+    background-color: #f1f3f5;
+  }
+  50% {
+    background-color: #719b25;
+  }
+  100% {
+    background-color: #f1f3f5;
+  }
+}

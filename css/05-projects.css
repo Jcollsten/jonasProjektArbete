@@ -1,0 +1,79 @@
+/* ******************************************************* */
+/* Project */
+/* ******************************************************* */
+.section-projects {
+  grid-area: projects;
+  background-color: var(--primary-bg-color);
+  color: var(--txt-color);
+  z-index: 0;
+}
+.projects {
+  max-width: 100vw;
+  min-height: 10vh;
+  margin: 0 auto;
+}
+.projects-header {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin: 0 4rem;
+}
+.projects-header-text-box {
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: auto;
+}
+.projects-paragraph {
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+/* Start of arranging the projects */
+.projects-box {
+  gap: 15rem;
+  flex-wrap: wrap;
+  padding: 0 3rem;
+}
+/* Applying styles to each of the Project moduls and also hover styles */
+.project-1,
+.project-2,
+.project-3 {
+  flex-direction: column;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: var(--item-color);
+  margin-top: 2rem;
+}
+.project-1:hover,
+.project-2:hover,
+.project-3:hover {
+  background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(ellipse at bottom, var(--highlight-color), transparent);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.project-text-box {
+  color: var(--secundary-txt-color);
+  font-size: 1.6rem;
+  margin: 4rem 4rem 1rem 4rem;
+}
+
+/* Styles for the text content in the about section */
+.project-text-box h3 {
+  display: inline-block;
+  margin-left: 1rem;
+}
+.project-text-box i {
+  font-size: 2.8rem;
+}
+
+/* And lastly styles for the pictures inside of the project boxes */
+.projects-img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  margin: 1rem 4rem 4rem 4rem;
+}

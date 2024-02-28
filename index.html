@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html id="web-page" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+      
+    <link rel="stylesheet" href="css/javascript-style.css" />
+    <link rel="stylesheet" href="css/01-css-main.css" />
+    <link rel="stylesheet" href="css/02-hero.css" />
+    <link rel="stylesheet" href="css/03-about.css" />
+    <link rel="stylesheet" href="css/04-skills.css" />
+    <link rel="stylesheet" href="css/05-projects.css" />
+    <link rel="stylesheet" href="css/06-contact.css" />
+    <link rel="stylesheet" href="css/07-mediaquerys.css" />
+    <link rel="stylesheet" href="css/08-navigation.css" />
+
+    
+    <script src="js/script.js" defer></script>
+    <title>Jonas Projekt 3</title>
+  </head>
+  <body id="hero" onload="timeChanger()">
+      <header class="header">
+        <span class="logo">NJSC</span>
+        <div class=""></div>
+        <nav class="nav">
+          <input type="checkbox" name="nav-check" id="nav-checkbox" />
+          <ul class="navigation-list">
+            <li>
+              <a class="nav-link" href="#hero">Home</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <i onclick="changeTheme()" id="moon-icon" class='bx bx-moon theme'></i>
+          </ul>
+          <label for="nav-checkbox" id="nav-checkbox-label">&#9776</label>
+        </nav>
+
+      </header>
+
+      <!-- a main, just as it sounds this is the main part of the site -->
+      <main>
+          <!-- each section of the website it sectioned in different 
+          parts, this is the start of the hero section -->
+          <section class="section-hero">
+            <div class="hero flex-center">
+              <div class="contact-btn-hero flex-center">
+                <a class="contact-btn"  href="#contact">Contact me</a>
+              </div>
+              <div class="find-box">
+                  <a href="https://github.com/Jcollsten" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github' ></i> @Jcollsten</a>
+                  <a href="https://se.linkedin.com/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin-square' ></i>@Jonas Collsten</a>
+              </div>
+            
+              <div class="hero-text-box flex-center">
+                <div class="hero-headline">
+                  <h1 class="welcome flex-center">Hello! I'm Jonas,</h1>
+                  <h1>Fullstack-Developer student 👋</h1>
+                </div>
+                <div class="hero-paragraph">
+                  <p class="welcome-text">
+                  "As a fullstack-developer student i Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit alot."
+                  </p>
+                </div>
+              </div>
+           </div>
+          </section>
+
+
+
+        <!-- The next section called About -->
+        <section id="about" class="section-about section-padding">
+          <div class="about-headline headline-margins flex-center ">
+            <h2 class="about-header flex-center">About me</h2>
+          </div>
+          <div class="about flex-center">
+            <div class="about-textbox about-animation">
+              <div class="about-paragraph " >
+                <div class="paragraph-headline">
+                  <i class='bx bxs-user' ></i>
+                  <h3>Who is Jonas?</h3>
+                </div>
+                <p class="about-text">
+                  Alias eius ducimus ipsa neque adipisci, itaque earum nemo. 
+                </p>
+              </div>
+              <div class="about-paragraph" >
+                <div class="paragraph-headline">
+                  <i class='bx bxs-graduation' ></i>
+                  <h3>Education</h3>
+                </div>
+                <p class="about-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut impedit animi id voluptas eos? <br>
+                  Facilis quos tenetur et, beatae nesciunt vel culpa quasi voluptas explicabo voluptatum, quia.
+                </p>
+              </div>
+              <div class="about-paragraph" >
+                <div class="paragraph-headline">
+                  <i class='bx bxs-briefcase-alt-2' ></i>
+                  <h3>Previous employments</h3>
+                </div>
+                <p class="about-text">
+                  Harum labore ab pariatur molestias natus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus laudantium <br> fugiat facere voluptas assumenda veritatis, eum magnam ratione rem, aliquid ut corrupti.
+                </p>
+              </div>
+            </div>
+            <div class="about-img-box">
+              <img
+                class="jonas-img"
+                src="img/jonasProfile2.jpg.jpg"
+                alt="Picture of Jonas"
+              />
+            </div>
+          </div>
+        </section>
+
+
+
+        <!-- Another section that is called Skills. Starting of with an ID used to anchor the Navigation to -->
+        <section id="skills" class="section-skills section-padding">
+          <div class="skills">
+            <div class="skills-headline flex-center headline-margins">
+              <h2 class="skills-header flex-center">
+                A few of the skills i aspire to master
+              </h2>
+            </div>
+            <div class="skill-icons">
+              <div class="icon-main flex-center">
+                <i class="bx bxl-javascript"></i>
+                <p>Javascript</p>
+              </div>
+              <div class="icon-main flex-center">
+                <i class="bx bxl-html5"></i>
+                <p>HTML</p>
+              </div>
+              <div class="icon-main flex-center">
+                <i class="bx bxl-css3"></i>
+                <p>CSS</p>
+              </div>
+            </div>
+            <div>
+              <h2 class="skills-subheader">And hopefully a few more...</h2>
+            </div>
+            <div class="skill-icons-more">
+              <div class="icon flex-center">
+                <i class="bx bxl-react"></i>
+              </div>
+              <div class="icon flex-center">
+                <i class="bx bxl-nodejs"></i>
+              </div>
+              <div class="icon flex-center">
+                <i class="bx bxl-figma"></i>
+              </div>
+              <div class="icon flex-center">
+                <i class="bx bxl-java"></i>
+              </div>
+              <div class="icon flex-center">
+                <i class="bx bxl-python"></i>
+              </div>
+              <div class="icon flex-center">
+                <i class="bx bxl-mongodb"></i>
+              </div>
+              <div class="icon flex-center">
+                <i class="bx bxl-php"></i>
+              </div>
+              <div class="icon flex-center">
+                <i class="bx bxl-docker"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+        <!-- A section created to display some of my extraordinary nonexistent projects -->
+        <section id="projects" class="section-projects section-padding">
+          <div class="projects">
+            <div class="projects-header-text-box flex-center">
+              <div class="projects-headline headline-margins">
+                <h2 class="projects-header flex-center">Here are some of my projects</h2>
+              </div>
+              <div class="projects-paragraph flex-center">
+                <p class="projects-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                  veritatis natus distinctio nam ullam aut quas maiores,
+                  voluptate unde.
+                </p>
+              </div>
+            </div>
+            <!-- I've created a own box(div) for each one of the projects, and also devided the contens of the project into smaller boxes -->
+            <div class="projects-box flex-center">
+              <div class="project-1 flex-center">
+                <div class="project-text-box flex-center">
+                  <i class="bx bx-mobile"></i>
+                  <h3>The Phone App!</h3>
+                </div>
+                <div class="project-img-box">
+                  <img
+                    class="projects-img"
+                    src="img/ben-kolde-PhoneApp.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="project-2 flex-center">
+                <div class="project-text-box flex-center">
+                  <i class="bx bx-desktop"></i>
+                  <h3>The Web App!</h3>
+                </div>
+                <div class="project-img-box">
+                  <img
+                    class="projects-img"
+                    src="img/ben-kolde-webApp.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="project-3 flex-center">
+                <div class="project-text-box flex-center">
+                  <i class="bx bxs-devices"></i>
+                  <h3>The Undecided!</h3>
+                </div>
+                <div class="project-img-box">
+                  <img
+                    class="projects-img"
+                    src="img/ben-kolde-Devices.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- And we have the last section that just contains a contact form -->
+        <section id="contact" class="section-contact section-padding">
+          <div class="contact flex-center">
+            <div class="contact-text-box headline-margins flex-center">
+              <h2 class="contact-header flex-center">Contact me</h2>
+              <div class="email-icon flex-center">
+                <i class="bx bx-mail-send"></i>
+              </div>
+            </div>
+            <div class="contact-form-box">
+              <!-- novalidate since i created my own validation in JS  -->
+              <form id="form" class="contact-form flex-center" action="/" novalidate> 
+                <div class="form-input-group flex-center">
+                  <label for="name">Your Name</label>
+                  <input
+                    class="form-input"
+                    type="text"
+                    id="name"
+                    name="name"
+                  />
+                </div>
+                <div class="form-input-group flex-center">
+                  <label for="email">Emailadress</label>
+                  <input
+                    class="form-input"
+                    type="email"
+                    id="email"
+                    name="email"
+                  />
+                </div>
+                <div class="form-input-group flex-center">
+                  <label for="message">Your Message</label>
+                  <textarea
+                    class="form-input-textarea"
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </div>
+                <div id="inputBtnBox" class="contact-form-btn-box flex-center">
+                  <input id="inputBtn" class="input-btn" type="submit" value="Send  " />
+                </div>
+                <div id="error" class="error"></div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- And a footer that currently just include a small text, since i wanted to include a footer. -->
+      <footer>
+        <h2 class="flex-center">Thank you for visiting my page!</h2>
+      </footer>
+  </body>
+</html>

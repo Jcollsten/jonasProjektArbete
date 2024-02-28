@@ -1,0 +1,74 @@
+/* ******************************************************* */
+/* About */
+/* ******************************************************* */
+.section-about {
+  grid-area: about;
+  background-color: var(--primary-bg-color);
+  color: var(--txt-color);
+  z-index: 0;
+}
+.about-header {
+  max-width: 80rem;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.about {
+  max-width: 100vw;
+  min-height: 30vh;
+  margin: 0 auto;
+}
+
+.about-textbox {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4rem;
+  margin-left: 4rem;
+  /* z inxed made this text not overlay the navigation bar. Im i not sure why that was the case, but i do susupect it has something to do with the animation. */
+  z-index: -1;
+}
+/* adding styles to the about texts and their headlines */
+.paragraph-headline {
+  display: flex;
+  align-items: center;
+}
+.paragraph-headline i {
+  font-size: 4rem;
+}
+.paragraph-headline h3 {
+  font-size: 2rem;
+  margin-left: 2rem;
+  font-weight: 500;
+}
+.about-paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+/* Animation and Keyframe to make the about texts slide/fade in from the left */
+.about-animation {
+  animation: fade 3s forwards;
+}
+@keyframes fade {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.about-text {
+  margin: 0 6rem;
+  font-size: 1.6rem;
+}
+/* And finnaly adding some styles for the picture of me */
+.about-img-box {
+  margin: 4rem;
+}
+.jonas-img {
+  height: 30rem;
+  width: 30rem;
+  border-radius: 50%;
+  object-fit: fill;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}

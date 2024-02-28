@@ -1,0 +1,80 @@
+/* ******************************************************* */
+/* Contact */
+/* ******************************************************* */
+.section-contact {
+  grid-area: contact;
+  background-color: var(--secundary-bg-color);
+  color: var(--txt-color);
+  margin-bottom: 0rem;
+  padding-bottom: 6rem;
+}
+.contact {
+  max-width: 100vw;
+  min-height: 30vh;
+  margin: 0 auto;
+  flex-direction: column;
+}
+/* A few styles for the "contact" header */
+.contact-header {
+  font-size: 3rem;
+  font-weight: 600;
+}
+/* Setting up styles for the contact form-box */
+.contact-form-box {
+  padding: 3rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: var(--contact-form-maincolor);
+  margin-bottom: 4rem;
+}
+/* And then for the specific form */
+.contact-form {
+  flex-direction: column;
+  gap: 2rem;
+}
+.form-input-group {
+  flex-direction: column;
+  font-size: 2rem;
+}
+.form-input {
+  border: 2px solid #333;
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 4rem;
+  width: 25rem;
+  font-size: 2rem;
+  padding: 1rem;
+  transition: 0.3s;
+}
+.form-input-textarea {
+  border: 2px solid #333;
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 20rem;
+  width: 25rem;
+  font-size: 2rem;
+  padding: 1rem;
+  font-family: "poppins";
+}
+label {
+  color: var(--secundary-txt-color);
+}
+
+.contact-form-btn-box {
+  flex-direction: row;
+  background-color: var(--secundary-bg-color);
+  border-radius: 10px;
+  width: 20rem;
+  height: 7rem;
+}
+.input-btn {
+  background-color: var(--secundary-bg-color);
+
+  border: none;
+  font-size: 2.8rem;
+  cursor: pointer;
+}
+.email-icon {
+  border: none;
+  font-size: 6rem;
+}

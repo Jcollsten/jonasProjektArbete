@@ -1,0 +1,29 @@
+/* ***************************************** */
+/* I created this file to gather all (almost, see 08-navigation) the medias in the same place. as i've mentioned in the README file,
+ i do think that these classes pretty well descibes where this media has a effect, and below shows what effect it will have. */
+/* ***************************************** */
+
+@media (max-width: 630px) {
+  .welcome-text,
+  .hero-headline h1 {
+    justify-content: left;
+  }
+}
+
+@media (max-width: 700px) {
+  .about {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 850px) {
+  .skill-icons {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1288px) {
+  .projects-box {
+    gap: 5rem;
+  }
+}
