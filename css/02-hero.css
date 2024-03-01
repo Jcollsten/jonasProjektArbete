@@ -16,7 +16,9 @@
   margin: 0 auto;
   padding: 0 3.2rem;
 
-  background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(ellipse at bottom, #333, transparent), url("/img/hero-ben-kolde-unsplash.jpg") center/cover;
+  background: radial-gradient(ellipse at top, #fff, transparent),
+    radial-gradient(ellipse at bottom, #333, transparent),
+    url("img/hero-ben-kolde-unsplash.jpg") center/cover;
 }
 /* Styles for the text content on the Hero section */
 .hero-text-box {
